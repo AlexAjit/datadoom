@@ -7,7 +7,7 @@ interface MetricsCardProps {
 }
 
 export default function MetricsCard({ data, className }: MetricsCardProps) {
-  const { name, value, icon: Icon, change, trend } = data;
+  const { name, value, change, trend } = data;
 
   return (
     <div className={cn("rounded-lg border bg-white p-6", className)}>
@@ -17,7 +17,7 @@ export default function MetricsCard({ data, className }: MetricsCardProps) {
           <p className="text-2xl font-semibold">{value}</p>
         </div>
         <div className="rounded-full bg-gray-100 p-3">
-          <Icon className="h-5 w-5 text-gray-600" />
+          {/* <Icon className="h-5 w-5 text-gray-600" /> */}
         </div>
       </div>
       <div className="mt-4">
