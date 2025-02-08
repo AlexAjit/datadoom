@@ -19,7 +19,7 @@ export default function SignupPage() {
             <p className="text-lg">
               Join thousands of teams already using DashDoom to unlock their data’s potential.
             </p>
-            <footer className="text-sm">Michael Chen</footer>
+            <footer className="text-sm">Ajit</footer>
           </blockquote>
         </div>
       </div>

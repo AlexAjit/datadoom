@@ -19,7 +19,7 @@ export default function LoginPage() {
             <p className="text-lg">
               Transform your data into actionable insights with our powerful analytics platform.
             </p>
-            <footer className="text-sm">Sofia Davis</footer>
+            <footer className="text-sm">Ajit</footer>
           </blockquote>
         </div>
       </div>
