@@ -17,9 +17,9 @@ export default function Sidebar() {
 
   return (
     <aside className="fixed left-0 top-0 z-40 h-screen w-64 border-r bg-white">
-     <div className="flex items-center gap-2 mb-4">
-        <Database className="h-8 w-8 text-blue-500" />
-        <span className="font-bold text-2xl text-white">DashDoom</span>
+      <div className="flex h-16 items-center border-b px-6">
+          <Database className="h-8 w-8 text-blue-500" />
+          <span className="text-xl font-semibold">DashDoom</span>
       </div>
       <nav className="space-y-1 p-4">
         {navigation.map((item) => {
