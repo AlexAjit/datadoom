@@ -27,7 +27,7 @@ export default function ProfilePage() {
               <label className="text-sm font-medium">Full Name</label>
               <input
                 type="text"
-                defaultValue="John Doe"
+                defaultValue="Ajit Yadav"
                 className="rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -36,7 +36,7 @@ export default function ProfilePage() {
               <label className="text-sm font-medium">Email</label>
               <input
                 type="email"
-                defaultValue="john@example.com"
+                defaultValue="ajit.yadav@google.com"
                 className="rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -46,7 +46,7 @@ export default function ProfilePage() {
               <textarea
                 rows={4}
                 className="rounded-md border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                defaultValue="Frontend Developer with 5 years of experience..."
+                defaultValue="A software engineer by skill and passion"
               />
             </div>
           </div>
